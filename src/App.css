@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.title{
+  padding-right: 20px;
+}
+
+
+.App-header {
+  width: 100vw;
+  height: 70px;
+  border-bottom: solid 1px black;
+  text-align: right;
+}
+
+.informationBlocks {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin: 40px auto 0;
+}
+
+.infoBlock {
+  border: 1px solid black;
+  width: 400px;
+  height: 125px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.chartBlock {
+  width: 1000px;
+  height: 600px;
+  margin: 40px auto 0;
+  border: 1px solid black;
+}
+
+.tableChart h2 {
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  width: 100px;
+  border-bottom: 1px solid black;
+}
+
+.legend {
+  display: flex;
+  justify-content: space-around;
+}
+
+.identifiers {
+  display: flex;
+}
+
+.square1 {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  margin: auto 10px;
+}
+
+.square2 {
+  width: 10px;
+  height: 10px;
+  background-color: lightgray;
+  margin: auto 10px;
+}
